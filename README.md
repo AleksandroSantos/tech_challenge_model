@@ -58,7 +58,12 @@ Para executar este projeto localmente, siga as etapas abaixo:
     python src/download_data.py
    ```
 
-4. Execute a Aplicação Streamlit:
+4. Treino e salvar modelo:
+   ```bash
+    notebooks/eda-tc-fase3.ipynd
+   ```
+
+5. Execute a Aplicação Streamlit:
    ```bash
     streamlit run src/app.py
    ```

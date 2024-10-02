@@ -21,8 +21,7 @@ vagas_garagem = st.number_input("Número de Vagas de Garagem", min_value=0)
 
 # Seleção do tipo de imóvel
 tipo_imovel = st.selectbox("Tipo de Imóvel", 
-    ['Casa', 'Apartamento', 'Comercial', 'Flat', 'Condomínio', 
-     'Cobertura', 'Loja', 'Prédio Residencial', 'Escritório'])
+    ['Casa', 'Apartamento', 'Outro'])
 
 # Botão para fazer a previsão
 if st.button("Prever Preço"):
